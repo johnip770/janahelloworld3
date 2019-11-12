@@ -29,8 +29,8 @@
 					<cloudHubDeployment>
 						<uri>${anypoint.url}</uri>
 						<muleVersion>4.2.0</muleVersion>
-						<username>jpagadala-intermedia</username>
-						<password>Nehalpag1971</password>
+						<username>${mule.username}</username>
+						<password>${mule.password}</password>
 						<applicationName>${cloudhub.application.name}</applicationName>
 						<environment>Sandbox</environment>
 						<workers>${workers}</workers>
